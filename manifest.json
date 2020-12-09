@@ -1,15 +1,22 @@
 {
-  "name": "Testing",
+  "name": "Block Site",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Hi there.",
+  "description": "Add list your own list of websites in manifest.json and background.js.",
   "background": {
 	"scripts": ["background.js"]
   },
 
   "permissions": [
 	"webRequest",
-	"webRequestBlocking",
-	"*://*.reddit.com/*"
+  "webRequestBlocking",
+  "activeTab",
+  "*://*.reddit.com/*",
+  "*://*.nytimes.com/*",
+  "*://*.theatlantic.com/*",
+  "*://*.theguardian.com/*",
+  "*://*.foxnews.com/*",
+  "*://*.news.google.co.in/*",
+  "*://*.news.google.com/*"
   ]
 }
