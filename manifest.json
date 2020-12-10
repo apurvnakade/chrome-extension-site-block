@@ -17,6 +17,9 @@
   "*://*.theguardian.com/*",
   "*://*.foxnews.com/*",
   "*://*.news.google.co.in/*",
-  "*://*.news.google.com/*"
+  "*://*.news.google.com/*",
+  "*://*.bloomberg.com/*",
+  "*://*.reuters.com/*",
+  "*://*.fivethirtyeight.com//*"
   ]
 }

@@ -9,5 +9,8 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		"*://*.foxnews.com/*",
 		"*://*.news.google.co.in/*",
 		"*://*.news.google.com/*",
+		"*://*.bloomberg.com/*",
+		"*://*.reuters.com/*",
+		"*://*.fivethirtyeight.com//*"
 		]},
 	["blocking"]);
