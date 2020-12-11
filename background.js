@@ -11,6 +11,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		"*://*.news.google.com/*",
 		"*://*.bloomberg.com/*",
 		"*://*.reuters.com/*",
-		"*://*.fivethirtyeight.com//*"
+		"*://*.fivethirtyeight.com//*",
+		"*://*.twitter.com//*"
 		]},
 	["blocking"]);
