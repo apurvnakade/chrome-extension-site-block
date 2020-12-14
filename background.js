@@ -13,6 +13,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		"*://*.reuters.com/*",
 		"*://*.fivethirtyeight.com//*",
 		"*://twitter.com//*",
-		"*://*.thehindu.com//*"
+		"*://*.thehindu.com//*",
+		"*://*.cnn.com/*"
 		]},
 	["blocking"]);
