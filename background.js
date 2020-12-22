@@ -14,6 +14,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		"*://*.fivethirtyeight.com//*",
 		"*://twitter.com//*",
 		"*://*.thehindu.com//*",
-		"*://*.cnn.com/*"
+		"*://*.cnn.com/*",
+		"*://*.twitch.tv/*"
 		]},
 	["blocking"]);

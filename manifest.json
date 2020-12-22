@@ -23,6 +23,7 @@
   "*://*.fivethirtyeight.com//*",
   "*://twitter.com//*",
   "*://*.thehindu.com//*",
-  "*://*.cnn.com/*"
+  "*://*.cnn.com/*",
+  "*://*.twitch.tv/*"
   ]
 }
