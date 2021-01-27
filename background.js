@@ -12,9 +12,12 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		"*://*.bloomberg.com/*",
 		"*://*.reuters.com/*",
 		"*://*.fivethirtyeight.com//*",
+<<<<<<< HEAD
 		"*://*.twitter.com//*",
+=======
+>>>>>>> cc976594061c98709e78a04c6260e452d2c4228e
 		"*://*.thehindu.com//*",
 		"*://*.cnn.com/*",
-		"*://*.twitch.tv/*"
+		"*://twitter.com/*"
 		]},
 	["blocking"]);
